@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('backround.png') no-repeat center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .next-page-button {
+            padding: 10px 20px;
+            background-color: cover;
+            color: #0a0808;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            bottom: 50px; /* Adjust this value to move the button up or down */
+            left: 50%;
+            transform: translateX(-50%);
+        
+        }
+    </style>
+</head>
+<body>
+
+    <a href="page2.html" class="next-page-button">Next</a>
+
+</body>
+</html>
